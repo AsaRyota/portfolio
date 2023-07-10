@@ -17,5 +17,47 @@ header{
 header h1{
     text-align: center;
     position: relative;
-
 }
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  header ul li a {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  header ul li a:hover,
+  header ul li a:active {
+  color: #000;
+  background-color: #fff;
+}
+@media (min-width: 769px) {
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 24px;
+    }
+    header h1 {
+      content: none;
+      height: 100px;
+    }
+    header h1::after {
+      content: none;
+    }
+    header ul {
+      margin-top: 0;
+      height: 100%;
+    }
+    header li {
+      display: flex;
+      align-items: center;
+    }
+  }
