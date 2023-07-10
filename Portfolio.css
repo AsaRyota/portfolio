@@ -3,17 +3,22 @@
     top: 0;
     box-sizing: border-box;
 }
-header{
+*::after, *::before {
+    box-sizing: inherit;
+  }
+html{
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-size: 14px;
+}
+header {
     position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 9999;
+    z-index: 9999; 
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    background-color: var(--base-bg);
-}
+    background-color: rgb(250, 252, 248, 0.5);
+  }
 header h1{
     text-align: center;
     position: relative;
@@ -27,18 +32,18 @@ header ul {
     margin-top: 16px;
   }
   header ul li a {
-    display: inline-block;
-    font-size: 1rem;
-    padding: 0.5rem 1.5rem;
-    color: #000;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: #090501;
     text-decoration: none;
     transition: all 0.3s;
   }
   header ul li a:hover,
   header ul li a:active {
-  color: #000;
-  background-color: #fff;
+  color: #CC9966;
+  background-color: #EEE8AA;
 }
+
 @media (min-width: 769px) {
     header {
       flex-direction: row;
