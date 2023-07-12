@@ -11,6 +11,7 @@ html{
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
     font-size: 14px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 header {
     position: fixed;
     width: 100%;
@@ -20,8 +21,12 @@ header {
     background-color: #afeeee;
   }
 header h1{
+    font-family: 'portfolio', cursive;
     text-align: center;
     position: relative;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #fff;
 }
 header ul {
     list-style: none;
@@ -34,7 +39,7 @@ header ul {
   header ul li a {
     font-size: 2rem;
     padding: 1rem 2rem;
-    color: #090501;
+    color: #fff;
     text-decoration: none;
     transition: all 0.3s;
   }
@@ -67,6 +72,7 @@ header ul {
     }
   }
     #home .img{
+      
         position: relative;
         background-color: #b0c4de;
         background-position: center;
@@ -75,6 +81,8 @@ header ul {
         height: 100vh;
       }
       #home h1{
+        font-family: 'portfolio', cursive;
+        color: #fff;
         position: absolute;
         top: 50%;
         left: 50%;
