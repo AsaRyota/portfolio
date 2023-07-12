@@ -26,7 +26,7 @@ header h1{
     position: relative;
     padding: 2rem;
     font-size: 2rem;
-    color: #fff;
+    color: #c0c0c0;
 }
 header ul {
     list-style: none;
@@ -39,7 +39,7 @@ header ul {
   header ul li a {
     font-size: 2rem;
     padding: 1rem 2rem;
-    color: #fff;
+    color: #c0c0c0;
     text-decoration: none;
     transition: all 0.3s;
   }
@@ -74,7 +74,7 @@ header ul {
     #home .img{
       
         position: relative;
-        background-color: #b0c4de;
+        background-color: #f0f8ff;
         background-position: center;
         background-size: cover;
         width: 100%;
@@ -82,7 +82,7 @@ header ul {
       }
       #home h1{
         font-family: 'portfolio', cursive;
-        color: #fff;
+        color: #c0c0c0;
         position: absolute;
         top: 50%;
         left: 50%;
