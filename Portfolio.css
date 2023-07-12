@@ -19,6 +19,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: #afeeee;
+    opacity: 0.5;
   }
 header h1{
     font-family: 'portfolio', cursive;
@@ -102,7 +103,7 @@ header ul {
           font-size: 6rem;
           text-align: center;
         }
-        #self-introduction p{
+        #self-introduction .profil{
           display: block;
           width: 40%;
           height: auto;
@@ -110,4 +111,9 @@ header ul {
           border: 4px  solid #afeeee;
           border-radius:3px;
           margin: 0 auto;
+        }
+        .profil h2{
+          text-align: right;
+          font-size: 2rem;
+          color: #c0c0c0;
         }
