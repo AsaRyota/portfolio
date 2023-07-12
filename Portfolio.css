@@ -17,7 +17,7 @@ header {
     z-index: 9999; 
     display: flex;
     justify-content: center;
-    background-color: rgb(250, 252, 248, 0.5);
+    background-color: #afeeee;
   }
 header h1{
     text-align: center;
@@ -68,7 +68,7 @@ header ul {
   }
     #home .img{
         position: relative;
-        background-image: url(clouds-g375626201_1280.jpg);
+        background-color: #b0c4de;
         background-position: center;
         background-size: cover;
         width: 100%;
