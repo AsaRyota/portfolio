@@ -102,7 +102,10 @@ header ul {
       color: #c0c0c0;
       font-size: 6rem;
       text-align: center;
-      padding-bottom: 4rem;
+      /*text-decoration: underline;
+      text-underline-offset: 15px;
+      text-decoration-thickness: 3px;
+      padding-bottom: 4rem;*/
     }
     #self-introduction .profil{
       display: block;
