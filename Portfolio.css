@@ -93,3 +93,21 @@ header ul {
         padding:0;
         font-size: 10rem;
         }
+        #self-introduction{
+          padding-top: 7rem;
+          background-color: #f0f8ff;
+        }
+        #self-introduction h1{
+          color: #c0c0c0;
+          font-size: 6rem;
+          text-align: center;
+        }
+        #self-introduction p{
+          display: block;
+          width: 40%;
+          height: auto;
+          padding: 10px;
+          border: 4px  solid #afeeee;
+          border-radius:3px;
+          margin: 0 auto;
+        }
