@@ -11,7 +11,7 @@ html{
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
     font-size: 14px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 header {
     position: fixed;
     width: 100%;
@@ -21,7 +21,7 @@ header {
     background-color: rgba(3, 236, 248, 0.5);
   }
 header h1{
-    font-family: 'cursive';
+    font-family: 'Sacramento', cursive;
     text-align: center;
     position: relative;
     padding: 2rem;
