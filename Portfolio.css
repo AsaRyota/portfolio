@@ -123,9 +123,20 @@ header ul {
       color: #c0c0c0;
     }
 
+#work{
+  padding-top: 7rem;
+  background-color: #f0f8ff;
+}
+#work h1{
+  font-family: 'cursive';
+  color: #c0c0c0;
+  font-size: 6rem;
+  text-align: center;
+} 
+
 
 footer{
-  background-color: #f0f8ff;
+  background-color: rgba(3, 236, 248, 0.5);
 }
 footer .copyright{
   color: #c0c0c0;
