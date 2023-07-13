@@ -8,8 +8,7 @@
   }
 html{
     scroll-behavior: smooth;
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
-    font-size: 14px;
+     font-size: 14px;
 }
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 header {
@@ -81,7 +80,7 @@ header ul {
     height: 100vh;
   }
   #home h1{
-    font-family: 'cursive';
+    font-family: 'Sacramento', cursive;
     color: #c0c0c0;
     position: absolute;
     top: 50%;
@@ -98,7 +97,7 @@ header ul {
       background-color: #f0f8ff;
     }
     #profile h1{
-      font-family: 'cursive';
+      font-family: 'Sacramento', cursive;
       color: #c0c0c0;
       font-size: 6rem;
       text-align: center;
@@ -117,7 +116,7 @@ header ul {
       margin: 0 auto;
     }
     .profil h2{
-      font-family: 'cursive';
+      font-family: 'Sacramento', cursive;
       padding-left: 18rem;
       font-size: 2rem;
       color: #c0c0c0;
@@ -128,7 +127,7 @@ header ul {
   background-color: #f0f8ff;
 }
 #work h1{
-  font-family: 'cursive';
+  font-family: 'Sacramento', cursive;
   color: #c0c0c0;
   font-size: 6rem;
   text-align: center;
