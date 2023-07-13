@@ -28,7 +28,7 @@ header h1{
     color: #c0c0c0;
 }
 header ul {
-    font-family: 'cursive';
+    font-family: 'Sacramento', cursive;
     list-style: none;
     display: flex;
     justify-content: center;
