@@ -128,7 +128,40 @@ footer .copyright{
   text-align: center;
   font-family: 'cursive';
 }
-/* Media Queries for Mobile Devices */
+
+@media only screen and (min-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header ul li a {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  #home h1 {
+    font-size: 10rem;
+  }
+
+  #profile h1 {
+    font-size: 6rem;
+    padding: 5rem;
+  }
+
+  .profil h2 {
+    padding-left: 30rem;
+    font-size: 2rem;
+  }
+
+  #profile .profil img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #work h1 {
+    font-size: 6rem;
+  }
+}
 
 @media only screen and (max-width: 480px) {
   header h1 {
