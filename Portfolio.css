@@ -48,6 +48,29 @@ header ul {
   color: #CC9966;
   background-color: #EEE8AA;
 }
+
+@media (min-width: 769px) {
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 24px;
+    }
+    header h1 {
+      content: none;
+      height: 100px;
+    }
+    header h1::after {
+      content: none;
+    }
+    header ul {
+      margin-top: 0;
+      height: 100%;
+    }
+    header li {
+      display: flex;
+      align-items: center;
+    }
+  }
   #home .img{
     position: relative;
     background-color: #f0f8ff;
