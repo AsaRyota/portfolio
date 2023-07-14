@@ -7,7 +7,7 @@
     box-sizing: inherit;
   }
 html{
-    scroll-behavior: smooth;
+     scroll-behavior: smooth;
      font-size: 14px;
 }
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
@@ -138,6 +138,7 @@ header ul {
   font-size: 6rem;
   text-align: center;
 } 
+
 
 
 footer{
