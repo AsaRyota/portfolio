@@ -48,29 +48,6 @@ header ul {
   color: #CC9966;
   background-color: #EEE8AA;
 }
-
-@media (min-width: 769px) {
-    header {
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 0 24px;
-    }
-    header h1 {
-      content: none;
-      height: 100px;
-    }
-    header h1::after {
-      content: none;
-    }
-    header ul {
-      margin-top: 0;
-      height: 100%;
-    }
-    header li {
-      display: flex;
-      align-items: center;
-    }
-  }
   #home .img{
     position: relative;
     background-color: #f0f8ff;
@@ -150,4 +127,39 @@ footer .copyright{
   padding-bottom: 2rem;
   text-align: center;
   font-family: 'cursive';
+}
+/* Media Queries for Mobile Devices */
+
+@media only screen and (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header ul li a {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  #home h1 {
+    font-size: 5rem;
+  }
+
+  #profile h1 {
+    font-size: 3rem;
+    padding: 2rem;
+  }
+
+  .profil h2 {
+    padding-left: 5rem;
+    font-size: 1.5rem;
+  }
+
+  #profile .profil img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #work h1 {
+    font-size: 3rem;
+  }
 }
