@@ -170,9 +170,8 @@ footer .copyright{
   bottom: 20px;
   right: 20px;
   z-index: 10000;
-  margin-top: 50rem;
+  margin-top: 52rem;
   border-radius: 40px;
-  
 }
 .gotop::before{
   content: "";
