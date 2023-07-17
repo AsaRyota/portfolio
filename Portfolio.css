@@ -176,11 +176,11 @@ footer .copyright{
 .gotop::before{
   content: "";
   display: block;
-  border-top: 2px solid #333;
-  border-right: 2px solid #333;
-  width: 25%;
-  height: 25%;
-  top: 25%;
+  border-top: 3px solid #333;
+  border-right: 3px solid #333;
+  width: 30%;
+  height: 30%;
+  top: 40%;
   left: 0;
   right: 0;
   margin: auto;
