@@ -152,3 +152,32 @@ footer .copyright{
   text-align: center;
   font-family: 'cursive';
 }
+#page_top{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background: #e25407;
+  border-radius: 50%;
+  opacity: 0.6;
+  }
+
+  /* Font Awesome */
+  #page_top::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    width: 40px;
+    height: 55px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
