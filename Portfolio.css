@@ -46,7 +46,7 @@ header ul {
   header ul li a:hover,
   header ul li a:active {
   color: #CC9966;
-  background-color: #EEE8AA;
+  background-color: #fff;
 }
 
 @media (min-width: 769px) {
