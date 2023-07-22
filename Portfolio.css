@@ -107,8 +107,9 @@ header ul {
       text-decoration-thickness: 3px;
       padding-bottom: 4rem;*/
     }
-    #profile .profil{
-      display: block;
+    .profil{
+      display: flex;
+      align-items: center;
       width: 60%;
       height: auto;
       padding: 10px;
@@ -118,11 +119,12 @@ header ul {
     }
     .profil h2{
       font-family: 'Sacramento', cursive;
-      padding-left: 30rem;
+      padding-left: 15rem;
       font-size: 2rem;
       color: #c0c0c0;
+      padding-bottom: 25px;
     }
-    #profile .profil img {
+    img {
       border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
       width:  200px;       /* ※縦横を同値に */
       height: 200px;       /* ※縦横を同値に */
