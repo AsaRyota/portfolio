@@ -124,7 +124,7 @@ header ul {
       color: #c0c0c0;
       padding-bottom: 25px;
     }
-    img {
+    .profil img {
       border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
       width:  200px;       /* ※縦横を同値に */
       height: 200px;       /* ※縦横を同値に */
@@ -140,6 +140,11 @@ header ul {
   font-size: 6rem;
   text-align: center;
 } 
+#work  ul{
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
 
 
 
