@@ -140,11 +140,72 @@ header ul {
   font-size: 6rem;
   text-align: center;
 } 
-#work  ul{
+.card-container {
   display: flex;
-  justify-content: center;
-  gap: 10rem;
+  padding-left: 4rem;
+  gap: 34rem;
+  background-color: #f0f8ff;
 }
+
+.licard1,
+.licard2 {
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  height: 25em;
+  border: solid 1px;
+}
+
+.licard1_img,
+.licard2_img {
+  height: 70%;
+  width: 100%;
+}
+
+.licard1_img img,
+.licard2_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.licard1_text,
+.licard2_text {
+  height: 30%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.card-container1{
+  background-color: #f0f8ff;
+  padding-top: 4rem;
+}
+
+.licard3 {
+  display:flex;
+  flex-direction:column;
+  width:30em;
+  height:25em;
+  margin:0 auto;
+  border:solid 1px;
+  }
+  .licard3_img {
+    height:70%;
+    width:100%;
+    }
+    .licard3_img img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    }  
+    .licard3_text {    
+    height:30%;
+    padding-left:1em;
+    padding-right:1em;
+    }
+    
+  
+    
+  
 
 
 
