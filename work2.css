@@ -116,3 +116,14 @@ body {
     line-height: 2;
     margin-bottom: 3rem;
   }
+  .i{
+    position: absolute;
+    margin-top: 58rem;
+  }
+  .i img{
+    border-radius: 30px;
+    width: 10%;
+    height: 10%;
+    margin-left: 65rem;
+  }
+  

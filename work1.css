@@ -103,7 +103,7 @@ body {
   .work-info h2 {
     font-family: 'Sacramento', cursive;
     color: #c0c0c0;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     
   }
@@ -113,4 +113,26 @@ body {
     font-size: 1.5rem;
     color: #444;
     line-height: 2;
+    margin-bottom: 1rem;
+  }
+  .i{
+    position: absolute;
+    margin-top: 35rem;
+  }
+  .i img{
+    border-radius: 15px;
+    width: 5%;
+    height: 5%;
+    margin-left: 65rem;
+  }
+  .i-2{
+    position: absolute;
+    margin-top: 60rem;
+
+  }
+  .i-2 img{
+    border-radius: 15px;
+    width: 5%;
+    height: 5%;
+    margin-left: 65rem;
   }
