@@ -145,6 +145,8 @@ header ul {
   padding-left: 4rem;
   gap: 34rem;
   background-color: #f0f8ff;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
 }
 
 .licard1,
@@ -184,7 +186,7 @@ header ul {
   font-size: 1.5rem;
   color: #c0c0c0;
 }
-.card-container1{
+/*.card-container1{
   background-color: #f0f8ff;
   padding-top: 4rem;
   padding-bottom: 7rem;
@@ -211,7 +213,7 @@ header ul {
     height:30%;
     padding-left:1em;
     padding-right:1em;
-    }
+    }*/
     
   
     
