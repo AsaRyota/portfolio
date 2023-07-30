@@ -27,6 +27,7 @@ header ul {
     align-items: center;
     gap: 16px;
     margin-top: 16px;
+    margin-bottom: 16px;
   }
   header ul li a {
     font-size: 2rem;
