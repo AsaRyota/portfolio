@@ -205,24 +205,24 @@ body {
 @media (min-width: 769px) {
     /* Header */
     header {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 24px;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 24px;
     }
     header h1 {
-        content: none;
-        height: 100px;
+      content: none;
+      height: 100px;
     }
     header h1::after {
-        content: none;
+      content: none;
     }
     header ul {
-        margin-top: 0;
-        height: 100%;
+      margin-top: 0;
+      height: 100%;
     }
     header li {
-        display: flex;
-        align-items: center;
+      display: flex;
+      align-items: center;
     }
   
     /* Work Section */
