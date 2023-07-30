@@ -126,4 +126,39 @@ body {
     height: 10%;
     margin-left: 65rem;
   }
-  
+  @media (max-width: 768px) {
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Work Section */
+    section.work {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work img {
+        width: 100%;
+        height: auto;
+    }
+
+    .work-info {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    /* Adjust margin-top and margin-left for proper positioning on mobile */
+    .i {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .i img {
+        width: 10%;
+        height: auto;
+    }
+}
